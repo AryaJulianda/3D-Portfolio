@@ -23,27 +23,6 @@ const ProjectCard = ({
         option={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt={name}
-            className="object-cover w-full h-full rounded-2xl"
-          />
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="object-contain w-1/2 h-1/2"
-              />
-            </div>
-          </div>
-        </div>
-
         <div className="mt-5 ">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary">{description}</p>
@@ -55,13 +34,6 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
-        </div>
-
-        <div
-          className="block py-3 mt-2 text-center border-2 border-transparent rounded-md cursor-pointer bg-black-100 hover:border-white"
-          onClick={() => window.open(demo_link, "_blank")}
-        >
-          <p className="font-bold">Live Preview</p>
         </div>
       </Tilt>
     </motion.div>

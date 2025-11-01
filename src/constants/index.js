@@ -29,6 +29,9 @@ import {
   discord,
 } from "../assets";
 
+export const about =
+  "I’m a passionate full-stack web developer who loves building clean, scalable, and user-focused applications. Over the past few years, I’ve developed and maintained several production-level systems — from banking loyalty platforms to ERP and CMMS applications — using technologies like Symfony, Laravel, CodeIgniter, and Golang. I enjoy learning new tools and frameworks, and I’m always looking for opportunities to create meaningful digital solutions.";
+
 export const navLinks = [
   {
     id: "about",
@@ -116,15 +119,37 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Middle Backend Developer",
+    company_name: "PT Alpabit Digital Inovasi",
+    icon: bbn,
+    iconBg: "#fff",
+    date: "Okt 2024 - Now",
+    points: [
+      "Developed, and maintained backend services for a large-scale banking loyalty platform using Symfony and other related technologies.",
+      "Developed backend services for POS system using Golang and other related technologies.",
+    ],
+  },
+  {
+    title: "Junior Backend Developer",
+    company_name: "PT Alpabit Digital Inovasi",
+    icon: bbn,
+    iconBg: "#fff",
+    date: "Des 2024 - Okt 2024",
+    points: [
+      "Developed, and maintained backend services for a large-scale banking loyalty platform using Symfony and other related technologies.",
+      "Developed backend services for POS system using Golang and other related technologies.",
+    ],
+  },
+  {
     title: "Fullstack Web Developer",
     company_name: "PT Bukit Baja Nusantara",
     icon: bbn,
     iconBg: "#fff",
-    date: "Nov 2023 - Now",
+    date: "Nov 2023 - Nov 2024",
     points: [
       "Developing and maintaining web company profile & customer portal using Codeigniter and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Build CMMS (Computerized Maintenance Management System) using Codeigniter and other related technologies",
+      "Developing and maintaining ERP system using Codeigniter and other related technologies.",
+      "Build CMMS (Computerized Maintenance Management System) using Laravel and other related technologies",
       "Implementing responsive design and ensuring cross-browser compatibility",
     ],
   },
@@ -170,104 +195,179 @@ const testimonials = [
   },
 ];
 
+// const projects = [
+//   {
+//     name: "Discord Clone",
+//     description:
+//       "Fullstack and real-time discord clone. With the feature servers, channels, video calls, audio calls, editing and deleting messages as well as member roles.",
+//     tags: [
+//       {
+//         name: "nextjs",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "tailwind",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "typescript",
+//         color: "pink-text-gradient",
+//       },
+//       {
+//         name: "mysql",
+//         color:
+//           "bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent",
+//       },
+//       {
+//         name: "socket.io",
+//         color:
+//           "bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent",
+//       },
+//     ],
+//     image: discord,
+//     source_code_link: "https://github.com/AryaJulianda/discord-clone",
+//     demo_link: "https://my-discord-clone.up.railway.app/",
+//   },
+//   {
+//     name: "Mama Recipe",
+//     description:
+//       "A web-based platform that allows users to search, post, and save recipes with an attractive and responsive design.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "express",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "postgre",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: recipe,
+//     source_code_link: "https://github.com/AryaJulianda/RECIPE-FE",
+//     demo_link: "https://mama-recipe.pages.dev/",
+//   },
+//   {
+//     name: "Peworld",
+//     description:
+//       "Peworld is an innovative web platform that allows the company to search for their best candidates.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "express",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "postgre",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: peworld,
+//     source_code_link: "https://github.com/maulanazn/hirejob-fe",
+//     demo_link: "https://hirejob.pages.dev/",
+//   },
+//   {
+//     name: "Ankasa",
+//     description:
+//       "Ankasa is a website platform that enables users to effortlessly search and filter flight options to suit their preferences.",
+//     tags: [
+//       {
+//         name: "nextjs",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "tailwind",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "postgre",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: ankasa,
+//     source_code_link: "https://github.com/AryaJulianda/ANKASA-FE",
+//     demo_link: "https://ankasa-next-js.vercel.app/",
+//   },
+// ];
+
 const projects = [
   {
-    name: "Discord Clone",
+    name: "Banking Loyalty Platform",
     description:
-      "Fullstack and real-time discord clone. With the feature servers, channels, video calls, audio calls, editing and deleting messages as well as member roles.",
+      "Developed and maintained backend services for a large-scale banking loyalty system, ensuring scalability, security, and integration with third-party vendors. Built using Symfony 3, Magento, and etc",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mysql",
-        color:
-          "bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent",
-      },
-      {
-        name: "socket.io",
-        color:
-          "bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent",
-      },
+      { name: "symfony", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "postgresql", color: "pink-text-gradient" },
+      { name: "restapi", color: "orange-text-gradient" },
+      { name: "magento", color: "blue-text-gradient" },
+      { name: "docker", color: "orange-text-gradient" },
     ],
-    image: discord,
-    source_code_link: "https://github.com/AryaJulianda/discord-clone",
-    demo_link: "https://my-discord-clone.up.railway.app/",
   },
   {
-    name: "Mama Recipe",
+    name: "POS Backend Service",
     description:
-      "A web-based platform that allows users to search, post, and save recipes with an attractive and responsive design.",
+      "Built backend services for a Point of Sales (POS) system to handle transaction management, reporting, and multi-branch synchronization using Golang, PostgreSQL, and etc",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "postgre",
-        color: "pink-text-gradient",
-      },
+      { name: "golang", color: "blue-text-gradient" },
+      { name: "postgresql", color: "green-text-gradient" },
+      { name: "restapi", color: "pink-text-gradient" },
+      { name: "docker", color: "orange-text-gradient" },
     ],
-    image: recipe,
-    source_code_link: "https://github.com/AryaJulianda/RECIPE-FE",
-    demo_link: "https://mama-recipe.pages.dev/",
   },
   {
-    name: "Peworld",
+    name: "CMMS (Computerized Maintenance Management System)",
     description:
-      "Peworld is an innovative web platform that allows the company to search for their best candidates.",
+      "Developed a Computerized Maintenance Management System (CMMS) for industrial operations to track equipment maintenance, scheduling, and performance analytics using Laravel, PHP, MySQL, and etc",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "postgre",
-        color: "pink-text-gradient",
-      },
+      { name: "laravel", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "mysql", color: "pink-text-gradient" },
+      { name: "javascript", color: "orange-text-gradient" },
+      { name: "bootstrap", color: "blue-text-gradient" },
     ],
-    image: peworld,
-    source_code_link: "https://github.com/maulanazn/hirejob-fe",
-    demo_link: "https://hirejob.pages.dev/",
   },
   {
-    name: "Ankasa",
+    name: "ERP System",
     description:
-      "Ankasa is a website platform that enables users to effortlessly search and filter flight options to suit their preferences.",
+      "Developed an Enterprise Resource Planning (ERP) system to manage core business processes such as inventory, procurement, and human resources. Built using CodeIgniter with modular architecture and MySQL database integration.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "postgre",
-        color: "pink-text-gradient",
-      },
+      { name: "codeigniter", color: "blue-text-gradient" },
+      { name: "mysql", color: "green-text-gradient" },
+      { name: "php", color: "pink-text-gradient" },
+      { name: "javascript", color: "orange-text-gradient" },
+      { name: "bootstrap", color: "blue-text-gradient" },
     ],
-    image: ankasa,
-    source_code_link: "https://github.com/AryaJulianda/ANKASA-FE",
-    demo_link: "https://ankasa-next-js.vercel.app/",
+  },
+  {
+    name: "Company Profile & Customer Portal",
+    description:
+      "Developed a company profile and customer portal web application to improve client accessibility and streamline internal communication using CodeIgniter and responsive UI design.",
+    tags: [
+      { name: "codeigniter", color: "blue-text-gradient" },
+      { name: "html", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
+      { name: "javascript", color: "orange-text-gradient" },
+      { name: "bootstrap", color: "blue-text-gradient" },
+    ],
+  },
+  {
+    name: "Bootcamp Projects",
+    description:
+      "Built multiple fullstack web and mobile applications during bootcamp training using React.js, Next.js, Node.js, Express, and React Native. Focused on clean architecture, teamwork, and RESTful API design.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nextjs", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+      { name: "express", color: "orange-text-gradient" },
+      { name: "reactnative", color: "blue-text-gradient" },
+    ],
   },
 ];
 

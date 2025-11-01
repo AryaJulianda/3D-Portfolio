@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { about } from "../constants";
 
 import { SectionWrapper } from "../hoc";
 
@@ -41,11 +42,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A highly skilled and experienced full-stack web developer with a proven
-        track record of success. Expertise in front-end and back-end
-        technologies, including JavaScript, Node.js, React, Next Js, MySql, and
-        etc. Proven ability to deliver high-quality, user-friendly web products.
-        Passionate about creating innovative and user-centered web experiences.
+        {about}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

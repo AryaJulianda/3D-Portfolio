@@ -31,7 +31,7 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Arya &nbsp;
-            <span className="hidden sm:block">// Fullstack Web Developer</span>
+            <span className="hidden sm:block">// Fullstack Developer</span>
           </p>
         </Link>
         <ul className="flex-row hidden gap-10 list-none sm:flex">
