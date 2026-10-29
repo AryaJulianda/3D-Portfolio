@@ -147,6 +147,7 @@ const experiences = [
     points: [
       "Project: Maybank Promo & Referral Code | Technical Lead (Project Role)",
       "Lead technical design, translate business requirements into system solutions, coordinate development tasks, and contribute hands-on to Rust backend development.",
+      "Developed a Sales Management Platform using Laravel for the backend and React.js for the frontend.",
     ],
   },
   {
@@ -158,7 +159,6 @@ const experiences = [
     points: [
       "Developed and maintained backend services for the OCBC loyalty platform using Symfony PHP and related technologies.",
       "Developed backend microservices for a POS system using Golang.",
-      "Developed a Sales Management Platform using Laravel for the backend and React.js for the frontend.",
     ],
   },
   {
@@ -434,10 +434,4 @@ const projects = [
 // EXPORTS
 // ==========================================
 
-export {
-  services,
-  technologies,
-  experiences,
-  testimonials,
-  projects,
-};
+export { services, technologies, experiences, testimonials, projects };
