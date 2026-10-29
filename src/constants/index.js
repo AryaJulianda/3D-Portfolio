@@ -29,8 +29,16 @@ import {
   discord,
 } from "../assets";
 
+// ==========================================
+// ABOUT ME
+// ==========================================
+
 export const about =
-  "I’m a passionate full-stack web developer who loves building clean, scalable, and user-focused applications. Over the past few years, I’ve developed and maintained several production-level systems — from banking loyalty platforms to ERP and CMMS applications — using technologies like Symfony, Laravel, CodeIgniter, and Golang. I enjoy learning new tools and frameworks, and I’m always looking for opportunities to create meaningful digital solutions.";
+  "I'm a Mid-Level Fullstack Developer experienced in building web applications, backend services, and enterprise systems across banking, loyalty, and business operations. I translate business requirements into technical solutions, design application workflows and API integrations, and collaborate with cross-functional teams. Currently serving as Technical Lead for the Maybank Promo & Referral Code project, I coordinate development tasks while contributing hands-on to Rust backend development. Proficient in PHP (Symfony, Laravel), Rust, Go, JavaScript, React, and relational databases, with a focus on maintainable, reliable, and business-aligned solutions.";
+
+// ==========================================
+// NAVIGATION
+// ==========================================
 
 export const navLinks = [
   {
@@ -46,6 +54,10 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+// ==========================================
+// SERVICES
+// ==========================================
 
 const services = [
   {
@@ -66,13 +78,17 @@ const services = [
   },
 ];
 
+// ==========================================
+// TECHNOLOGIES
+// ==========================================
+
 const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "php",
+    name: "PHP",
     icon: php,
   },
   {
@@ -96,15 +112,15 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "next",
+    name: "Next.js",
     icon: next,
   },
   {
-    name: "laravel",
+    name: "Laravel",
     icon: laravel,
   },
   {
-    name: "codeigniter",
+    name: "CodeIgniter",
     icon: codeigniter,
   },
   {
@@ -112,21 +128,25 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Postgre",
+    name: "PostgreSQL",
     icon: postgre,
   },
 ];
 
+// ==========================================
+// PROFESSIONAL EXPERIENCE
+// ==========================================
+
 const experiences = [
   {
-    title: "Middle Backend Developer",
+    title: "Mid-Level Fullstack Developer",
     company_name: "PT Alpabit Digital Inovasi",
     icon: bbn,
     iconBg: "#fff",
-    date: "Okt 2024 - Now",
+    date: "Oct 2025 - Present",
     points: [
-      "Developed, and maintained backend services for a large-scale banking loyalty platform using Symfony and other related technologies.",
-      "Developed backend services for POS system using Golang and other related technologies.",
+      "Project: Maybank Promo & Referral Code | Technical Lead (Project Role)",
+      "Lead technical design, translate business requirements into system solutions, coordinate development tasks, and contribute hands-on to Rust backend development.",
     ],
   },
   {
@@ -134,39 +154,43 @@ const experiences = [
     company_name: "PT Alpabit Digital Inovasi",
     icon: bbn,
     iconBg: "#fff",
-    date: "Des 2024 - Okt 2024",
+    date: "Dec 2024 - Oct 2025",
     points: [
-      "Developed, and maintained backend services for a large-scale banking loyalty platform using Symfony and other related technologies.",
-      "Developed backend services for POS system using Golang and other related technologies.",
+      "Developed and maintained backend services for the OCBC loyalty platform using Symfony PHP and related technologies.",
+      "Developed backend microservices for a POS system using Golang.",
+      "Developed a Sales Management Platform using Laravel for the backend and React.js for the frontend.",
     ],
   },
   {
-    title: "Fullstack Web Developer",
+    title: "Software Engineer",
     company_name: "PT Bukit Baja Nusantara",
     icon: bbn,
     iconBg: "#fff",
     date: "Nov 2023 - Nov 2024",
     points: [
-      "Developing and maintaining web company profile & customer portal using Codeigniter and other related technologies.",
-      "Developing and maintaining ERP system using Codeigniter and other related technologies.",
-      "Build CMMS (Computerized Maintenance Management System) using Laravel and other related technologies",
-      "Implementing responsive design and ensuring cross-browser compatibility",
+      "Developed and maintained a company profile website and customer portal using CodeIgniter.",
+      "Built a Computerized Maintenance Management System (CMMS) using Laravel.",
+      "Developed ERP system modules using CodeIgniter and related technologies.",
     ],
   },
   {
-    title: "Bootcamp Fullstack Web & Mobile Developer",
+    title: "Fullstack Web & Mobile Developer Bootcamp",
     company_name: "Pijar Camp",
     icon: pijarcamp,
     iconBg: "#fff",
-    date: "July 2023 - October 2023",
+    date: "Jul 2023 - Oct 2023",
     points: [
-      "Develop Web applications using JavaScript and Node.js, Express.js, and React.js, and successfully built 4 projects in 3 months",
-      "Built mobile applications using React Native and Android development methodologies",
-      "Built databases using PostgreSQL, in order to guarantee the integrity and efficiency of data",
-      "Maintain teamwork and collaboration skills to work effectively in a cross-functional environment",
+      "Built four web projects in three months using JavaScript, Node.js, Express.js, and React.js.",
+      "Developed mobile applications using React Native.",
+      "Designed and worked with PostgreSQL databases.",
+      "Practiced teamwork, communication, and problem-solving in a collaborative environment.",
     ],
   },
 ];
+
+// ==========================================
+// TESTIMONIALS
+// ==========================================
 
 const testimonials = [
   {
@@ -195,142 +219,132 @@ const testimonials = [
   },
 ];
 
-// const projects = [
-//   {
-//     name: "Discord Clone",
-//     description:
-//       "Fullstack and real-time discord clone. With the feature servers, channels, video calls, audio calls, editing and deleting messages as well as member roles.",
-//     tags: [
-//       {
-//         name: "nextjs",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "tailwind",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "typescript",
-//         color: "pink-text-gradient",
-//       },
-//       {
-//         name: "mysql",
-//         color:
-//           "bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent",
-//       },
-//       {
-//         name: "socket.io",
-//         color:
-//           "bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent",
-//       },
-//     ],
-//     image: discord,
-//     source_code_link: "https://github.com/AryaJulianda/discord-clone",
-//     demo_link: "https://my-discord-clone.up.railway.app/",
-//   },
-//   {
-//     name: "Mama Recipe",
-//     description:
-//       "A web-based platform that allows users to search, post, and save recipes with an attractive and responsive design.",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "express",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "postgre",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: recipe,
-//     source_code_link: "https://github.com/AryaJulianda/RECIPE-FE",
-//     demo_link: "https://mama-recipe.pages.dev/",
-//   },
-//   {
-//     name: "Peworld",
-//     description:
-//       "Peworld is an innovative web platform that allows the company to search for their best candidates.",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "express",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "postgre",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: peworld,
-//     source_code_link: "https://github.com/maulanazn/hirejob-fe",
-//     demo_link: "https://hirejob.pages.dev/",
-//   },
-//   {
-//     name: "Ankasa",
-//     description:
-//       "Ankasa is a website platform that enables users to effortlessly search and filter flight options to suit their preferences.",
-//     tags: [
-//       {
-//         name: "nextjs",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "tailwind",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "postgre",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: ankasa,
-//     source_code_link: "https://github.com/AryaJulianda/ANKASA-FE",
-//     demo_link: "https://ankasa-next-js.vercel.app/",
-//   },
-// ];
+// ==========================================
+// PROJECTS
+// ==========================================
 
 const projects = [
   {
+    name: "Maybank Promo & Referral Code",
+    description:
+      "Serve as Technical Lead (project role), translating banking campaign requirements into technical designs, application workflows, and API solutions. Coordinate development tasks while contributing hands-on to backend implementation using Rust.",
+    tags: [
+      {
+        name: "rust",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "backend",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "technical-leadership",
+        color: "orange-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Sales Management Platform",
+    description:
+      "Developed a fullstack sales management platform using Laravel for backend functionality and React.js for the frontend.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
     name: "Banking Loyalty Platform",
     description:
-      "Developed and maintained backend services for a large-scale banking loyalty system, ensuring scalability, security, and integration with third-party vendors. Built using Symfony 3, Magento, and etc",
+      "Developed and maintained backend services for a banking loyalty system, focusing on system reliability, API integration, and third-party service connectivity using Symfony, PHP, PostgreSQL, Magento, and Docker.",
     tags: [
-      { name: "symfony", color: "blue-text-gradient" },
-      { name: "php", color: "green-text-gradient" },
-      { name: "postgresql", color: "pink-text-gradient" },
-      { name: "restapi", color: "orange-text-gradient" },
-      { name: "magento", color: "blue-text-gradient" },
-      { name: "docker", color: "orange-text-gradient" },
+      {
+        name: "symfony",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "magento",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "orange-text-gradient",
+      },
     ],
   },
   {
     name: "POS Backend Service",
     description:
-      "Built backend services for a Point of Sales (POS) system to handle transaction management, reporting, and multi-branch synchronization using Golang, PostgreSQL, and etc",
+      "Developed backend microservices for a Point of Sales (POS) system using Golang, supporting business operations through API-based services and database integrations.",
     tags: [
-      { name: "golang", color: "blue-text-gradient" },
-      { name: "postgresql", color: "green-text-gradient" },
-      { name: "restapi", color: "pink-text-gradient" },
-      { name: "docker", color: "orange-text-gradient" },
+      {
+        name: "golang",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "orange-text-gradient",
+      },
     ],
   },
   {
     name: "CMMS (Computerized Maintenance Management System)",
     description:
-      "Developed a Computerized Maintenance Management System (CMMS) for industrial operations to track equipment maintenance, scheduling, and performance analytics using Laravel, PHP, MySQL, and etc",
+      "Developed a Computerized Maintenance Management System (CMMS) for industrial operations to track equipment maintenance, scheduling, and operational data using Laravel, PHP, and MySQL.",
     tags: [
-      { name: "laravel", color: "blue-text-gradient" },
-      { name: "php", color: "green-text-gradient" },
-      { name: "mysql", color: "pink-text-gradient" },
-      { name: "javascript", color: "orange-text-gradient" },
-      { name: "bootstrap", color: "blue-text-gradient" },
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
     ],
   },
   {
@@ -338,11 +352,26 @@ const projects = [
     description:
       "Developed an Enterprise Resource Planning (ERP) system to manage core business processes such as inventory, procurement, and human resources. Built using CodeIgniter with modular architecture and MySQL database integration.",
     tags: [
-      { name: "codeigniter", color: "blue-text-gradient" },
-      { name: "mysql", color: "green-text-gradient" },
-      { name: "php", color: "pink-text-gradient" },
-      { name: "javascript", color: "orange-text-gradient" },
-      { name: "bootstrap", color: "blue-text-gradient" },
+      {
+        name: "codeigniter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
     ],
   },
   {
@@ -350,25 +379,65 @@ const projects = [
     description:
       "Developed a company profile and customer portal web application to improve client accessibility and streamline internal communication using CodeIgniter and responsive UI design.",
     tags: [
-      { name: "codeigniter", color: "blue-text-gradient" },
-      { name: "html", color: "green-text-gradient" },
-      { name: "css", color: "pink-text-gradient" },
-      { name: "javascript", color: "orange-text-gradient" },
-      { name: "bootstrap", color: "blue-text-gradient" },
+      {
+        name: "codeigniter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
     ],
   },
   {
     name: "Bootcamp Projects",
     description:
-      "Built multiple fullstack web and mobile applications during bootcamp training using React.js, Next.js, Node.js, Express, and React Native. Focused on clean architecture, teamwork, and RESTful API design.",
+      "Built multiple fullstack web and mobile applications during bootcamp training using React.js, Next.js, Node.js, Express.js, and React Native. Focused on teamwork, database integration, and RESTful API development.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "nextjs", color: "green-text-gradient" },
-      { name: "nodejs", color: "pink-text-gradient" },
-      { name: "express", color: "orange-text-gradient" },
-      { name: "reactnative", color: "blue-text-gradient" },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
     ],
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+// ==========================================
+// EXPORTS
+// ==========================================
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+};
